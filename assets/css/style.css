@@ -37,3 +37,10 @@ nav img{
 .texto {
     text-align: left;
 }
+
+/*---- Destacados ----*/
+.card {
+    background-color:rgb(13, 206, 219) !important ;
+    color: #fff !important;
+}
+ 
