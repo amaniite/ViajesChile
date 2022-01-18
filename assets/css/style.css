@@ -1,0 +1,39 @@
+/*---- Body ----*/
+body {
+    background-color: black !important;
+}
+
+/*---- Navbar ----*/
+nav {
+    background-color: transparent !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav img{
+    width: 40px;
+}
+
+/*---- Carousel ----*/
+
+
+/*---- Section quienes somos ----*/
+.barrita {
+    color: rgb(13, 206, 219);
+    height: 5px !important;
+    width: 100%;
+}
+
+.quienes-somos {
+    color: #fff;
+}
+
+.icono {
+    background-color:rgb(13, 206, 219) ;
+    width: 100%;
+}
+
+.texto {
+    text-align: left;
+}

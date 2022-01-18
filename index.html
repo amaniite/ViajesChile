@@ -1,12 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+
+    <!-- Fonts Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!--Mi estilo-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--CDN de Bootstrap -->
+    <link rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <!--Titulo -->
     <title>Viajes Chile</title>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+
+    <!---- Navbar ---->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container">
+            <img src="assets/img/viajes.svg" alt="logo">
+            <a class="navbar-brand" href="#">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!---- Carousel ---->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!---- ¿Quienes Somos? ---->
+    <section class="quienes-somos">
+        <h2 class=" text-light text-center my-5">¿Quiénes somos?</h2>
+        <div class="container">
+            <hr class="barrita my-5 mx-auto opacity-100">
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <i class="icono fas fa-plane fa-2x py-1"></i>
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus felis velit, eget
+                        rhoncus
+                        lorem eleifend nec. Vestibulum sit amet metus erat. Suspendisse vel ligula porta, consequat nibh
+                        ut,
+                        accumsan felis. Vestibulum fermentum a est quis tempor. Sed consequat varius enim quis
+                        elementum.
+                        Integer at dui purus. In varius odio vel neque maximus pulvinar. Aenean tempor massa imperdiet
+                        libero feugiat tristique. Mauris a velit scelerisque, scelerisque sem eu, faucibus libero. Sed
+                        sagittis diam vulputate, dictum arcu vitae, feugiat purus. Fusce non neque vitae urna varius
+                        viverra. Integer pharetra vulputate odio, sed pellentesque libero varius at.
+
+                        Sed sodales ex nec lectus convallis dignissim. In non erat leo. Sed non pretium diam, eu varius
+                        nunc. Fusce sed auctor ante. In euismod, tellus sed imperdiet pharetra, nisl augue maximus
+                        ipsum,
+                        non lobortis sapien mauris eu nunc. Cras imperdiet gravida viverra. Nullam viverra laoreet nunc
+                        vitae mattis. Nullam at cursus magna. Orci varius natoque penatibus et magnis dis parturient
+                        montes,
+                        nascetur ridiculus mus. Morbi vitae est eu arcu vestibulum vestibulum.
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus felis velit, eget
+                        rhoncus
+                        lorem eleifend nec. Vestibulum sit amet metus erat. Suspendisse vel ligula porta, consequat nibh
+                        ut,
+                        accumsan felis. Vestibulum fermentum a est quis tempor. Sed consequat varius enim quis
+                        elementum.
+                        Integer at dui purus. In varius odio vel neque maximus pulvinar. Aenean tempor massa imperdiet
+                        libero feugiat tristique. Mauris a velit scelerisque, scelerisque sem eu, faucibus libero. Sed
+                        sagittis diam vulputate, dictum arcu vitae, feugiat purus. Fusce non neque vitae urna varius
+                        viverra. Integer pharetra vulputate odio, sed pellentesque libero varius at.
+
+                        Sed sodales ex nec lectus convallis dignissim. In non erat leo. Sed non pretium diam, eu varius
+                        nunc. Fusce sed auctor ante. In euismod, tellus sed imperdiet pharetra, nisl augue maximus
+                        ipsum,
+                        non lobortis sapien mauris eu nunc. Cras imperdiet gravida viverra. Nullam viverra laoreet nunc
+                        vitae mattis. Nullam at cursus magna. Orci varius natoque penatibus et magnis dis parturient
+                        montes,
+                        nascetur ridiculus mus. Morbi vitae est eu arcu vestibulum vestibulum.</p>
+                       <i class="icono fas fa-mountain fa-2x py-1"></i>
+                    
+                </div>
+
+                <div class="col-lg-4">
+                    <i class="icono fas fa-route fa-2x py-1"></i>
+                    <p class="texto" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus felis velit, eget
+                        rhoncus
+                        lorem eleifend nec. Vestibulum sit amet metus erat. Suspendisse vel ligula porta, consequat nibh
+                        ut,
+                        accumsan felis. Vestibulum fermentum a est quis tempor. Sed consequat varius enim quis
+                        elementum.
+                        Integer at dui purus. In varius odio vel neque maximus pulvinar. Aenean tempor massa imperdiet
+                        libero feugiat tristique. Mauris a velit scelerisque, scelerisque sem eu, faucibus libero. Sed
+                        sagittis diam vulputate, dictum arcu vitae, feugiat purus. Fusce non neque vitae urna varius
+                        viverra. Integer pharetra vulputate odio, sed pellentesque libero varius at.
+
+                        Sed sodales ex nec lectus convallis dignissim. In non erat leo. Sed non pretium diam, eu varius
+                        nunc. Fusce sed auctor ante. In euismod, tellus sed imperdiet pharetra, nisl augue maximus
+                        ipsum,
+                        non lobortis sapien mauris eu nunc. Cras imperdiet gravida viverra. Nullam viverra laoreet nunc
+                        vitae mattis. Nullam at cursus magna. Orci varius natoque penatibus et magnis dis parturient
+                        montes,
+                        nascetur ridiculus mus. Morbi vitae est eu arcu vestibulum vestibulum.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!--Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <!--Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!--Mi script -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
