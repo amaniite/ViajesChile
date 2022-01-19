@@ -15,8 +15,6 @@ nav img{
     width: 40px;
 }
 
-/*---- Carousel ----*/
-
 
 /*---- Section quienes somos ----*/
 .barrita {
@@ -42,5 +40,16 @@ nav img{
 .card {
     background-color:rgb(13, 206, 219) !important ;
     color: #fff !important;
+    padding: 0 !important;
 }
  
+.imagenesTarjeta{
+  height: 40%  ;
+  width: 100%;
+}
+
+/*---- Footer ----*/
+footer {
+    background-color:rgb(13, 206, 219) ;
+    color: #fff;
+}
