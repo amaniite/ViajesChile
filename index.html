@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Google Fonts-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <!-- Fonts Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -39,16 +41,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
+                        <a class="nav-link active" aria-current="page" href="#quienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Destacados</a>
+                        <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +59,7 @@
 
 
     <!---- Carousel ---->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="inicio" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
@@ -82,7 +84,7 @@
     </div>
 
     <!---- ¿Quienes Somos? ---->
-    <section class="quienes-somos">
+    <section id="quienesSomos" class="quienes-somos d-none d-lg-block">
         <h2 class=" text-light text-center my-5">¿Quiénes somos?</h2>
         <div class="container">
             <hr class="barrita my-5 mx-auto opacity-100">
@@ -163,12 +165,12 @@
         </div>
     </section>
     <!---- Destacados ---->
-    <section class="tarjetas container">
+    <section id="destacados" class="tarjetas container">
         <h2 class=" text-light my-5 text-center">Destacados</h2>
         <hr class="barrita my-5 mx-auto opacity-100">
 
         <div class="row">
-            <div class="card col-lg-3 mx-auto" style="width: 18rem;">
+            <div class="card col-lg-3 mx-auto my-3" style="width: 18rem;">
                 <img src="assets/img/card1.jpg" class=" imagenesTarjeta card-img-top" alt="card1">
                 <div class="card-body">
                     <h5 class="card-title">Sed sodales ex</h5>
@@ -179,7 +181,7 @@
                 </div>
             </div>
 
-            <div class="card col-lg-3 mx-auto" style="width: 18rem;">
+            <div class="card col-lg-3 mx-auto my-3" style="width: 18rem;">
                 <img src="assets/img/card2.jpg" class="imagenesTarjeta card-img-top" alt="card2">
                 <div class="card-body">
                     <h5 class="card-title">Sed sodales ex</h5>
@@ -190,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="card col-lg-3 mx-auto" style="width: 18rem;">
+            <div class="card col-lg-3 mx-auto my-3" style="width: 18rem;">
                 <img src="assets/img/card3.jpg" class="imagenesTarjeta card-img-top" alt="card3">
                 <div class="card-body">
                     <h5 class="card-title">Sed sodales ex</h5>
@@ -201,7 +203,7 @@
                 </div>
             </div>
 
-            <div class="card col-lg-3 mx-auto" style="width: 18rem;">
+            <div class="card col-lg-3 mx-auto my-3" style="width: 18rem;">
                 <img src="assets/img/card4.jpg" class="imagenesTarjeta card-img-top " alt="card4">
                 <div class="card-body">
                     <h5 class="card-title">Sed sodales ex</h5>
@@ -215,12 +217,13 @@
     </section>
 
     <!---- Contacto ---->
-    <section class="container text-center">
+    <section id="contacto" class="container text-center">
         <h2 class=" text-light my-5 text-center">Contacto</h2>
         <hr class="barrita my-5 mx-auto opacity-100">
         <div class="bg-light py-5 mb-5">
             <h4>Hola! Gracias por contactarnos</h4>
-            <a class="btn btn-primary my-4" href="https://nghzp61gpfr.typeform.com/to/OM5oofT8" role="button">Comenzar</a>
+            <a class="btn btn-primary my-4" href="https://nghzp61gpfr.typeform.com/to/OM5oofT8"
+                role="button">Comenzar</a>
         </div>
 
 

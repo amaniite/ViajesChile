@@ -1,6 +1,17 @@
 /*---- Body ----*/
 body {
     background-color: black !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*---- HTML Smooth----*/
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-weight: 400 ;
 }
 
 /*---- Navbar ----*/
