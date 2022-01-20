@@ -59,6 +59,14 @@ nav img{
   width: 100%;
 }
 
+/*---- Contacto ----*/
+.formulario {
+    height: 400px;
+}
+
+h4 {
+    margin-top: 100px !important;
+}
 /*---- Footer ----*/
 footer {
     background-color:rgb(13, 206, 219) ;
